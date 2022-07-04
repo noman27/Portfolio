@@ -1,6 +1,7 @@
 body{
     font-family: 'Julius Sans One', sans-serif;
     margin: 0;
+    font-size: 25px;
 }
 h1{
     font-size: 50px;
@@ -8,7 +9,7 @@ h1{
 .name-color{
     color:#a503fc;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -35,4 +36,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    margin-top: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin-bottom: 30px;
+    
+}
+#blu-border{
+    border-left: 7px solid blue;
+}
+
+#red-border{
+    border-left: 7px solid tomato;
+}
+
+footer p{
+    margin-top: 100px;
+    text-align: center;
 }
