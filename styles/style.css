@@ -30,3 +30,9 @@ section{
     background-image: url(images/topbanner.png);
     background-repeat: no-repeat;
 }
+.dream-area{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
